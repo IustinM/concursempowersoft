@@ -159,7 +159,7 @@ nav{
 
 #container4{
     background-color:#57ba98 ;
-    height: 1500px;
+    height: 1600px;
 }
 .h2-container4{
     color: #ffffff;
@@ -195,7 +195,7 @@ nav{
 }
 #container5{
     background-color: #f79e02;
-    height: 1100px;
+    height: 1200px;
 }
 .img-container5{
     display: flex;
@@ -227,6 +227,7 @@ nav{
 }
 #container6 h2{
     color: #312e2e;
+
     padding: 2rem;
     font-family: 'Roboto', sans-serif;
     font-size: 3.5rem;
