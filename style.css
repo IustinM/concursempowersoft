@@ -159,7 +159,7 @@ nav{
 
 #container4{
     background-color:#57ba98 ;
-    height: 1600px;
+    height: 1700px;
     position: relative;
 }
 .h2-container4{
@@ -191,7 +191,6 @@ nav{
     justify-content: center;
 }
 #container4 img{
-    padding-top: 2rem ;
     width: 200px;
     position: absolute;
     bottom:9rem;
