@@ -281,3 +281,28 @@ nav{
     display: flex;
     justify-content: center;
 }
+.footer{
+    background-color: black;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.footer p {
+    padding: 0.3rem;
+    font-size: 14px;
+}
+.contact a{
+    color: white;
+    font-size: 30px;
+    padding: 0.3rem 0.5rem;
+    transition: 0.3s;
+}
+.contact a:hover{
+    color: rgb(128, 128, 128);
+    transform: scale(0.2); 
+}
