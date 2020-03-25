@@ -10,7 +10,7 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: #8860d0;
-    height: 60px;
+    height: 50px;
     width: 100%;
     position: fixed;
     z-index: 1;
@@ -56,6 +56,7 @@ nav{
 .burger{
     position: absolute;
     right: 0;
+    top: 0;
     margin: 0.6rem 1rem;
 }
 .burger div{
@@ -92,7 +93,7 @@ nav{
 }
 #container1{
     
-    width: 100%;
+   
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -113,7 +114,7 @@ nav{
 }
 .container1-img{
     width: 400px;
-    display: flex;
+ 
     height: 250px;
     
 }
@@ -172,7 +173,7 @@ nav{
 #container4{
     width: 100%;
     background-color:#57ba98 ;
-    height: 1700px;
+   
     position: relative;
 }
 .h2-container4{
@@ -205,13 +206,14 @@ nav{
 }
 #container4 img{
     width: 200px;
-    position: absolute;
+    /* position: absolute; */
     bottom:9rem;
+    margin-bottom: 3rem;
 }
 #container5{
     width: 100%;
     background-color: #f79e02;
-    height: 1200px;
+    
 }
 .img-container5{
     display: flex;
@@ -235,7 +237,6 @@ nav{
 }
 #container6{
     width: 100%;
-    height: 900px;
     background-color:#fef9c7 ;
 }
 #container6 img{
@@ -268,11 +269,12 @@ nav{
 }
 #container7{
     width: 100%;
-    height: 1300px;
+    
     background-color:#f070a1 ;
 }
 #container7 img{
     width: 300px;
+    margin-bottom: 3rem;
 }
 
 #container7 h1{
@@ -323,4 +325,74 @@ nav{
 .contact a:hover{
     color: rgb(128, 128, 128);
     transform: scale(0.2); 
+}
+@media screen and (min-width: 600px){
+#container1 h1{
+    font-size: 4rem;
+    line-height: 75px;
+}
+    
+}
+@media screen and (min-width:1300px){
+body{
+    width: 100%;
+    }
+#container1{
+    min-width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+.intro-div{
+display: flex;
+width: 700px;
+height: 700px;
+align-items: center;
+justify-content: center;
+position: absolute;
+
+
+    }
+#container1 h1{
+    font-size: 5rem;
+    line-height: 95px;
+    
+}
+
+.container1-img{
+    min-width: 800px;
+    height: 400px;
+   position: absolute;
+   right: 0%;
+   top: 30%;
+   
+}
+nav{
+    position: static;
+    position: relative;
+}
+.nav-links{
+    right: 0;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 1.5rem;
+    right: 0;
+    height: 0px;
+
+}
+.nav-links a{
+    color: white;
+}
+.nav-links li{
+    list-style:none;
+    padding: 1rem;
+    opacity: 1;
+}
+.burger{
+    display: none;
+}
 }
