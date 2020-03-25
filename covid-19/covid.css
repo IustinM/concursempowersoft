@@ -126,6 +126,16 @@ nav{
    background-color: #5680e9;
    position: relative;
 }
+#container2 h3{
+   padding: 1rem;
+   line-height: 45px;
+   margin-bottom: 2rem;
+   font-size: 2.5rem;
+   color: #ffffff;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+}
 .imgaine-container2{
    width: 300px;
 }
