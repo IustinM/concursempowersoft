@@ -154,7 +154,7 @@ nav{
 }
 #container3{
     width: 100%;
-    height: 550px;
+    
     background-color: #f76c6c;
 }
 .container3-h2{
@@ -331,6 +331,20 @@ nav{
     font-size: 4rem;
     line-height: 75px;
 }
+    #container2{
+        display:flex ;
+    }
+    #container2 p{
+        font-size: 20px;
+        
+    }
+   
+    .text-container2{
+      
+       
+        margin-bottom: 2rem;
+    }
+
     
 }
 @media screen and (min-width:1300px){
@@ -394,5 +408,29 @@ nav{
 }
 .burger{
     display: none;
+}
+#container2{
+    display:flex ;
+}
+#container2 p{
+    font-size: 23px;
+}
+#container2 img{
+    top: 20%;
+    width: 600px;
+    right: 10%;
+
+}
+.text-container2{
+    width: 500px;
+    margin-left: 4rem;
+}
+#container3 h2{
+    font-size: 40px;
+    padding: 3rem;
+
+}
+#container3 p{
+    font-size: 25px;
 }
 }
