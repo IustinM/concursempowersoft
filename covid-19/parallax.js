@@ -4,8 +4,8 @@ function parallax(element,distance,speed){
 }
 window.addEventListener('scroll',function(){
      parallax('#container1', window.scrollY , 0.5);
-    parallax('.adn', window.scrollY , 0.2);
-    parallax('.covid', window.scrollY , 0.1);
+    parallax('.adn', window.scrollY , 0.3);
+    parallax('.covid', window.scrollY , 0.2);
    
 
 });

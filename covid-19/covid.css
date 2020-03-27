@@ -203,3 +203,84 @@ nav{
 .gol{
    padding-bottom: 4rem;
 }
+@media screen and (min-width:1300px){
+
+   /* nav{
+       position: relative;
+       z-index: 1;
+      
+   } */
+   .nav-links{
+       right: 0;
+       position: static;
+       display: flex;
+       flex-direction: row;
+       position: absolute;
+       top: 1.5rem;
+       right: 0;
+       height: 0px;
+   
+   }
+   .nav-links a{
+       color: white;
+   }
+   .nav-links li{
+       list-style:none;
+       padding: 1rem;
+       opacity: 1;
+   }
+   .burger{
+       display: none;
+   }
+   #container1{
+      display: flex;
+      height: 80vh;
+      justify-content: space-around;
+      align-items: center;
+   }
+   #container1 h1{
+      font-size: 6rem;
+   }
+   .container1-text{
+      width: 30%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+   }
+   .covid{
+      width: 250px;
+   }
+   .adn{
+      width: 225px;
+   }
+   .covid-small{
+      width: 150px;
+   }
+   .adn-small{
+      width: 190px;
+   }
+}
+.punct{
+   background-color: #12e63573;
+   width: 50px;
+   height: 50px;
+   position: fixed;
+   z-index: 2;
+   right: 2rem;
+   bottom: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   border: 2px solid white;
+   transition: 0.5s;
+}
+.punct  {
+   font-size: 1.7rem;
+   color: white;
+   text-decoration: none;
+}
+.punct:hover{
+   background: none;
+   
+}
